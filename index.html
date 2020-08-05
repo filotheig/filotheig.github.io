@@ -187,6 +187,7 @@
 
     options = {
         success: function(files) {
+	debugger;
           files.forEach(function(file) {
             add_img_to_list(file);
             window.opener.postMessage(
